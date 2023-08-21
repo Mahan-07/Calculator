@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <hr />
+    <p id="title">با استفاده از div</p>
+    <hr />
+    <br />
+    <!--ماشین حساب اولی با دیو-->
+    <div class="calculator">
+      <div class="up-side">
+        <div class="screen"></div>
+      </div>
+      <br />
+      <hr />
+      <div class="down-side">
+        <div class="column1">
+          <div class="num7">7</div>
+          <div class="num4">4</div>
+          <div class="num1">1</div>
+          <div class="delete">c</div>
+        </div>
+        <div class="column2">
+          <div class="num8">8</div>
+          <div class="num5">5</div>
+          <div class="num2">2</div>
+          <div class="num0">0</div>
+        </div>
+        <div class="column3">
+          <div class="num9">9</div>
+          <div class="num6">6</div>
+          <div class="num3">3</div>
+          <div class="equal">=</div>
+        </div>
+        <div class="column4">
+          <div class="positive">+</div>
+          <div class="negative">-</div>
+          <div class="cross">×</div>
+          <div class="slash">/</div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <p id="title">با استفاده از input</p>
+    <hr />
+    <br />
+    <!--ماشین حساب دومی با اینپوت-->
+    <div class="calculator">
+      <div class="up-side">
+        <input type="text" id="input-screen" />
+      </div>
+      <br />
+      <hr />
+      <div class="down-side">
+        <div class="column1">
+          <input type="button" value="7" />
+          <input type="button" value="4" />
+          <input type="button" value="1" />
+          <input type="button" value="c" id="input-c" />
+        </div>
+        <div class="column2">
+          <input type="button" value="8" />
+          <input type="button" value="5" />
+          <input type="button" value="2" />
+          <input type="button" value="0" />
+        </div>
+        <div class="column3">
+          <input type="button" value="9" />
+          <input type="button" value="6" />
+          <input type="button" value="3" />
+          <input type="button" value="=" id="input-equal" />
+        </div>
+        <div class="column4">
+          <input type="button" value="+" id="input-positive" />
+          <input type="button" value="-" id="input-negative" />
+          <input type="button" value="×" id="input-cross" />
+          <input type="button" value="/" id="input-slash" />
+        </div>
+      </div>
+    </div>
+    <br>
+    <br />
+</body>
+</html>

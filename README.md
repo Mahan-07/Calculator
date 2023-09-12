@@ -1,4 +1,7 @@
 # This is a simple Calculator that works well.
+[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/mahan-07/calculator)](https://github.com/mahan-07/calculator/activity)
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/mahan-07/calculator?color=lightskyblue)](https://github.com/mahan-07/calculator/graphs/commit-activity)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mahan-07/calculator)](#)
 ![Static Badge](https://img.shields.io/badge/In%20progress-yellow)
 
 It still needs time to be better.
